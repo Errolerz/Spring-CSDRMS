@@ -19,7 +19,8 @@ import com.capstone.csdrms.Entity.UserNotification;
 import com.capstone.csdrms.Service.NotificationService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app
+")
 @RequestMapping("/notifications")
 public class NotificationController {
 	

@@ -22,7 +22,8 @@ import com.capstone.csdrms.Service.RecordService;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app
+")
 @RequestMapping("/record")
 public class RecordController {
  
