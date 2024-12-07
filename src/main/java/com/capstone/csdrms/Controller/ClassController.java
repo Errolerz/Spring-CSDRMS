@@ -19,8 +19,7 @@ import com.capstone.csdrms.Entity.ClassEntity;
 import com.capstone.csdrms.Service.ClassService;
 
 @RestController
-@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app
-")
+@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app")
 @RequestMapping("/class")
 public class ClassController {
 	

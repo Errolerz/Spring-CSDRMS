@@ -21,8 +21,7 @@ import com.capstone.csdrms.Methods.TimeLogRequest;
 import com.capstone.csdrms.Service.TimeLogService;
 
 @RestController
-@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app
-")
+@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app")
 @RequestMapping("/time-log")
 public class TimeLogController {
 

@@ -23,8 +23,7 @@ import com.capstone.csdrms.Service.StudentService;
 
 
 @RestController
-@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app
-")
+@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app")
 @RequestMapping("/student")
 public class StudentController {
 

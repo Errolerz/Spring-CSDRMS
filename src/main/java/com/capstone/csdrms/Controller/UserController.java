@@ -20,8 +20,7 @@ import com.capstone.csdrms.Entity.UserEntity;
 import com.capstone.csdrms.Service.UserService;
 
 @RestController
-@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app
-")
+@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app")
 @RequestMapping("/user")
 public class UserController {
 

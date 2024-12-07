@@ -17,8 +17,7 @@ import com.capstone.csdrms.Entity.SchoolYearEntity;
 import com.capstone.csdrms.Service.SchoolYearService;
 
 @RestController
-@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app
-")
+@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app ")
 @RequestMapping("/schoolYear")
 public class SchoolYearController {
 
