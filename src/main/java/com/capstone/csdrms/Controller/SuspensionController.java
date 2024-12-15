@@ -22,7 +22,7 @@ import com.capstone.csdrms.Service.SuspensionService;
 
 
 @RestController
-@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app")
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/suspension")
 public class SuspensionController {
 

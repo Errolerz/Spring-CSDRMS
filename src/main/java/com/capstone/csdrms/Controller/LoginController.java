@@ -14,7 +14,7 @@ import com.capstone.csdrms.Methods.LoginRequest;
 import com.capstone.csdrms.Service.LoginService;
 
 @RestController
-@CrossOrigin(origins = "https://jhs-react-csdrms.vercel.app")
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/user")
 public class LoginController {
 	
