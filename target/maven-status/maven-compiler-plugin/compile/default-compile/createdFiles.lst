@@ -4,6 +4,7 @@ com\capstone\csdrms\Entity\ActivityLogEntity.class
 com\capstone\csdrms\Entity\UserEntity.class
 com\capstone\csdrms\Controller\TimeLogController.class
 com\capstone\csdrms\Controller\ClassController.class
+com\capstone\csdrms\Service\RecordService$1.class
 com\capstone\csdrms\Repository\StudentRepository.class
 com\capstone\csdrms\Service\SchoolYearService.class
 com\capstone\csdrms\Entity\SchoolYearEntity.class
