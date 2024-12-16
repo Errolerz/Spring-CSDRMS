@@ -12,8 +12,8 @@ RUN mvn dependency:go-offline -B
 COPY src ./src
 RUN mvn clean package -DskipTests
 
-# Use a smaller image to run the app
-FROM amazoncorretto:17-slim
+# Use a production-ready Amazon Corretto image
+FROM amazoncorretto:17
 
 # Set working directory for the app
 WORKDIR /app
