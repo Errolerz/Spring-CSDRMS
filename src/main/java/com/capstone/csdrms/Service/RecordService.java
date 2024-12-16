@@ -251,7 +251,7 @@ public class RecordService {
 		    Set<String> duplicateRecords = new HashSet<>();
 		    
 		    try (InputStream is = file.getInputStream(); Workbook workbook = new XSSFWorkbook(is)) {
-		        Sheet sheet = workbook.getSheetAt(1);  // Assuming data is in the first sheet
+		        Sheet sheet = workbook.getSheetAt(0);  // Assuming data is in the first sheet
 
 		        for (Row row : sheet) {
 		            if (row.getRowNum() == 0) continue;  // Skip header row
